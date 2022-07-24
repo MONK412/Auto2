@@ -33,6 +33,6 @@ public class PostmanTest {
 
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Привет, меня зовут Руслан"));
+                .body("data", equalTo("Привет, меня зовут Рустам"));
     }
 }
